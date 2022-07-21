@@ -1,7 +1,5 @@
 /// <reference types="cypress" /> 
 
-
-
 context('Teste_site_compras',() =>{
     it("Realizar cadastro", () =>{
         cy.visit('https://cliente.americanas.com.br/minha-conta/cadastro?next=https://www.americanas.com.br/')
@@ -13,7 +11,7 @@ context('Teste_site_compras',() =>{
             .click()
 
         cy.get('[data-cy=formField__birthDate]')
-        .type('01/04/2022')
+            .type('01/04/2022')
 
         cy.get('[data-cy=formField__cpf]')
             .type('142.032.750-08')
