@@ -41,9 +41,11 @@ context('Teste_site_compras',() =>{
 
         cy.get('[data-cy=sign-submit]')
             .click()
-
-        //const msgErro = "o email fornecido é inválido."
+            
+        // Vai ser implementado..
+        //cy.get('form.sc-dSfclH gXLzpE').should('have.class', 'o email fornecido é inválido.')
 
 
     })
 })
+
