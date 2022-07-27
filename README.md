@@ -1,2 +1,2 @@
 # cypress.Cadastro_Usuario
-Projeto desenvolvido para praticar Cypress em um formulario de cadastro de um novo usuario;
+Projeto desenvolvido com o Framework Cypress, para preencher as informações necessárias em um formulário de cadastro
